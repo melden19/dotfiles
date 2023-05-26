@@ -25,6 +25,7 @@
 6. Restart your computer to finalize the process
 
 ### TODO
+- [ ] improve ssh configuration
 - [ ] review macos configuration
 - [ ] oh-my-zsh
   - [ ] theme
