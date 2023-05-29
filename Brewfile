@@ -4,6 +4,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'mongodb/brew'
 
 # Binaries
 brew 'awscli'
@@ -24,12 +25,15 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
 
 # Development
-brew 'nginx'
 brew 'golang'
 brew 'nvm'
-brew 'redis'
+brew 'nginx'
 brew 'yarn'
 cask 'google-cloud-sdk'
+
+# DBs
+brew 'mongodb-community'
+brew 'redis'
 
 # Kubernetes
 brew 'helm'
