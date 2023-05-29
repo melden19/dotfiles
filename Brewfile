@@ -25,6 +25,7 @@ brew 'svn' # Needed to install fonts
 
 # Development
 brew 'nginx'
+brew 'golang'
 brew 'nvm'
 brew 'redis'
 brew 'yarn'
