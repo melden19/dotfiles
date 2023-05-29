@@ -26,6 +26,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Intall LTS node version using nvm
+nvm install --lts
+
 # Create a working directory
 mkdir $HOME/projects
 

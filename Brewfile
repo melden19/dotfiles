@@ -25,6 +25,7 @@ brew 'svn' # Needed to install fonts
 
 # Development
 brew 'nginx'
+brew 'nvm'
 brew 'redis'
 brew 'yarn'
 cask 'google-cloud-sdk'
