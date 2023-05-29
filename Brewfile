@@ -38,6 +38,7 @@ brew 'k9s'
 brew 'stern'
 
 # Apps
+cask 'ngrok'
 cask '1password'
 cask 'discord'
 cask 'docker'
