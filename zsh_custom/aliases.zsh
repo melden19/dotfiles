@@ -11,9 +11,6 @@ alias cf="cd $HOME/project/cf"
 alias ohmyzshc="code ~/.oh-my-zsh"
 alias zshc="code ~/.zshrc"
 
-# Kubernetes
-alias k="kubectl"
-
 # Git
 alias gst="git status"
 alias gb="git branch"

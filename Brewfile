@@ -41,6 +41,7 @@ brew 'kubernetes-cli'
 brew 'kubectx'
 brew 'k9s'
 brew 'stern'
+brew 'k3d'
 
 # Apps
 cask 'ngrok'

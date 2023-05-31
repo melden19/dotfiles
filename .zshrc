@@ -81,7 +81,7 @@ source $ZSH_CUSTOM/plugins/plugins_conf.zsh
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(nvm git)
+plugins=(nvm git kubectl kubectx)
 
 source $ZSH/oh-my-zsh.sh
 
