@@ -24,10 +24,18 @@
 
 6. Restart your computer to finalize the process
 
+### Local Settings
+In case you want to override configuration or add sensitive data to it you can use the following files format to store it without tracking it in git.
+*  `_*.local.*`
+*  `_*.local`
+
+For example: 
+* `zsh_custom/_secrets.local.zsh`
+* `zsh_custom/_overrides.local.zsh`
 ### TODO
 - [ ] improve ssh configuration
 - [ ] review macos configuration
 - [ ] oh-my-zsh
   - [ ] theme
   - [ ] plugins
-- [ ] local configuration management
+- [x] local configuration management

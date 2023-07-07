@@ -1,2 +1,2 @@
-*.local
-*.local.*
+_*.local
+_*.local.*

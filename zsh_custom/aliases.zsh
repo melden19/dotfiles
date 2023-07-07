@@ -5,7 +5,6 @@ alias version="commit 'version'"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias cf="cd $HOME/project/cf"
 
 # VSCode open
 alias ohmyzshc="code ~/.oh-my-zsh"

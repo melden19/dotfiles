@@ -29,6 +29,7 @@ brew 'golang'
 brew 'nvm'
 brew 'nginx'
 brew 'yarn'
+brew 'protobuf'
 cask 'google-cloud-sdk'
 
 # DBs
@@ -52,6 +53,7 @@ cask 'google-chrome'
 cask 'insomnia'
 # cask 'raycast'
 cask 'screenflow'
+cask 'flameshot'
 cask 'slack'
 cask 'the-unarchiver'
 cask 'transmit'
@@ -73,5 +75,4 @@ cask 'quicklook-json'
 
 # Mac App Store
 mas 'Speedtest', id: 1153157709
-mas 'Lightshot', id: 526298438
 mas 'Tailscale', id: 1475387142
