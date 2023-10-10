@@ -76,3 +76,4 @@ cask 'quicklook-json'
 # Mac App Store
 mas 'Speedtest', id: 1153157709
 mas 'Tailscale', id: 1475387142
+mas 'Meeter', id: 1510445899
