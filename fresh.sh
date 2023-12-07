@@ -1,5 +1,7 @@
 #!/bin/sh
 
+ADDED_BY_FRESH="added by fresh.sh"
+
 echo "Setting up your Mac..."
 
 # Check for Oh My Zsh and install if we don't have it
@@ -18,6 +20,17 @@ fi
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# Add the referenct to the .dotfiles/.gitconfig by appending [include] statement to the $HOME/.gitconfig file
+if ! grep -q "gitconfig; $ADDED_BY_FRESH" "$HOME/.gitconfig"
+then
+  echo "Including .dotfiles/.gitconfig to $HOME/.gitconfig"
+  tee -a $HOME/.gitconfig > /dev/null << END
+
+[include] # gitconfig; $ADDED_BY_FRESH
+	path = $HOME/.dotfiles/.gitconfig
+END
+fi
 
 # Update Homebrew recipes
 brew update
