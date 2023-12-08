@@ -33,4 +33,4 @@
 	ca = commit -a
 	cm = commit -m
 	cam = commit -am
-	cem = commit --allow-empty -m "Empty commit"
+	ec = commit --allow-empty -m \"Empty commit\"
