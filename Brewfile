@@ -16,6 +16,7 @@ brew 'git'
 brew 'grep'
 brew 'jq'
 brew 'yq'
+brew 'tree'
 
 # TODO: configure mackup
 # brew 'mackup'
