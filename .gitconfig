@@ -18,19 +18,21 @@
 	changed = yellow bold
 	untracked = red bold
 
-### DIFF ###
+### OTHER ###
 
 [diff]
     tool = vscode
 [difftool "vscode"]
     cmd = code --wait --diff $LOCAL $REMOTE
 
+[pull]
+	rebase = false
 
 ### ALIASES ###
 
 [alias]
 	c = commit
+	ce = commit --allow-empty -m \"Empty commit\"
 	ca = commit -a
 	cm = commit -m
 	cam = commit -am
-	ec = commit --allow-empty -m \"Empty commit\"
