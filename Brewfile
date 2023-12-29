@@ -1,5 +1,4 @@
 # Taps
-tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -58,7 +57,7 @@ cask 'flameshot'
 cask 'slack'
 cask 'the-unarchiver'
 cask 'transmit'
-cask 'visual-studio-code'
+cask 'vscodium'
 cask 'zoom'
 
 # Quicklook
