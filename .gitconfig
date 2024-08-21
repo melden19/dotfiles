@@ -36,3 +36,4 @@
 	ca = commit -a
 	cm = commit -m
 	cam = commit -am
+	undo = reset --soft HEAD^

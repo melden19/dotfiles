@@ -27,3 +27,9 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+
+# misspells
+alias gti="git"
+alias igt="git"
+alias dcoekr="docker"
+alias docekr="docker"

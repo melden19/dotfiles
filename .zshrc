@@ -93,3 +93,6 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+# iterm2 zsh shell integration
+source ~/.iterm2_shell_integration.zsh
+

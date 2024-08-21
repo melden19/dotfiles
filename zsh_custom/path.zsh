@@ -10,7 +10,5 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # Load Go binaries
 export PATH=$(go env GOPATH)/bin:$PATH
 
-# Make sure coreutils are loaded before system commands
-# I've disabled this for now because I only use "ls" which is
-# referenced in my aliases.zsh file directly.
-#export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+# bun
+export PATH="$BUN_INSTALL/bin:$PATH"

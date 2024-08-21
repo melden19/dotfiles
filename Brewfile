@@ -15,12 +15,12 @@ brew 'jq'
 brew 'yq'
 brew 'tree'
 
-# TODO: configure mackup
-# brew 'mackup'
-
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
+
+# Utils
+brew cask 'the_silver_searcher'
 
 # Development
 brew 'golang'
@@ -43,13 +43,13 @@ brew 'stern'
 brew 'k3d'
 
 # Apps
+brew 'meetingbar'
 cask 'ngrok'
 cask '1password'
 cask 'discord'
 cask 'docker'
 cask 'google-chrome'
-cask 'insomnia'
-# cask 'raycast'
+cask 'raycast'
 cask 'screenflow'
 cask 'flameshot'
 cask 'slack'
@@ -58,7 +58,7 @@ cask 'transmit'
 cask 'vscodium'
 cask 'zoom'
 
-# Quicklook
+# Quicklook extentions
 cask 'qlmarkdown'
 cask 'quicklook-json'
 
@@ -75,3 +75,4 @@ cask 'quicklook-json'
 mas 'Speedtest', id: 1153157709
 mas 'Tailscale', id: 1475387142
 mas 'Meeter', id: 1510445899
+mas 'Flycut', id: 442160987
