@@ -1,10 +1,11 @@
-# Shortcuts
-alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+# shortcuts
 alias c="clear"
-alias version="commit 'version'"
+alias k="kubectl"
 
-# Directories
-alias dotfiles="cd $DOTFILES"
+# dotfiles
+alias dotfiles_cd="cd $DOTFILES"
+alias dotfiles_code="code $DOTFILES"
+alias dotfiles_path="echo $DOTFILES"
 
 # VSCode open
 alias ohmyzshc="code ~/.oh-my-zsh"
@@ -27,6 +28,7 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+alias bump="commit bump"
 
 # misspells
 alias gti="git"
