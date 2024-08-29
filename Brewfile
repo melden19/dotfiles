@@ -20,7 +20,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
 
 # Utils
-brew cask 'the_silver_searcher'
+brew 'the_silver_searcher'
 
 # Development
 brew 'golang'
@@ -43,36 +43,29 @@ brew 'stern'
 brew 'k3d'
 
 # Apps
-brew 'meetingbar'
+
+# cask 'google-chrome'
+# cask 'docker'
+# cask 'slack'
+# cask 'zoom'
+
+cask 'meetingbar'
 cask 'ngrok'
 cask '1password'
 cask 'discord'
-cask 'docker'
-cask 'google-chrome'
 cask 'raycast'
 cask 'screenflow'
 cask 'flameshot'
-cask 'slack'
 cask 'the-unarchiver'
 cask 'transmit'
 cask 'vscodium'
-cask 'zoom'
+cask 'tailscale'
+cask 'flycut'
 
 # Quicklook extentions
 cask 'qlmarkdown'
 cask 'quicklook-json'
 
-# Fonts
-# cask 'font-lato'
-# cask 'font-open-sans'
-# cask 'font-roboto'
-# cask 'font-source-code-pro-for-powerline'
-# cask 'font-source-code-pro'
-# cask 'font-source-sans-pro'
-# cask 'font-source-serif-pro'
-
 # Mac App Store
-mas 'Speedtest', id: 1153157709
 mas 'Tailscale', id: 1475387142
-mas 'Meeter', id: 1510445899
 mas 'Flycut', id: 442160987
