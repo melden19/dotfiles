@@ -1,6 +1,4 @@
-# Taps
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
+# Tapshomebrew/bundle
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 tap 'mongodb/brew'
