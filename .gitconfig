@@ -2,9 +2,12 @@
 
 ### USER MANAGEMENT ###
 
-# [user]
-# 	email = denismel19@gmail.com
-# 	name = Denys Melnyk
+[user]
+	email = denismel19@gmail.com
+	name = Denys Melnyk
+
+[include]
+	path = local/.gitconfig
 
 # [includeIf "gitdir:~/project_a/"]
 #   path = ~/project_a/.gitconfig
@@ -37,3 +40,5 @@
 	cm = commit -m
 	cam = commit -am
 	undo = reset --soft HEAD^
+	last = log -1 HEAD
+

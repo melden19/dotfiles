@@ -1,3 +1,5 @@
+### common ####
+
 # shortcuts
 alias c="clear"
 alias k="kubectl"
@@ -13,7 +15,6 @@ alias zshc="code ~/.zshrc"
 
 # Git
 alias gst="git status"
-alias gb="git branch"
 alias gc="git checkout"
 alias gl="git log --oneline --decorate --color"
 alias amend="git add . && git commit --amend --no-edit"
@@ -35,3 +36,18 @@ alias gti="git"
 alias igt="git"
 alias dcoekr="docker"
 alias docekr="docker"
+
+
+###  fzf  ###
+
+is_in_git_repo() {
+  git rev-parse HEAD > /dev/null 2>&1
+}
+
+unalias gb # unset alias from zsh git plugin
+gb() {
+  is_in_git_repo &&
+    git branch -a -vv --color=always | grep -v '/HEAD\s' |
+    fzf --height 40% --ansi --multi --tac | sed 's/^..//' | awk '{print $1}' |
+    sed 's#^remotes/[^/]*/##' | xargs -r git checkout
+}

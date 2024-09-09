@@ -96,3 +96,11 @@ export LANG=en_US.UTF-8
 # iterm2 zsh shell integration
 source ~/.iterm2_shell_integration.zsh
 
+# enable autocompletion for packages installed wiht brew
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
